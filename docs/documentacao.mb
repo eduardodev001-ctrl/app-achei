@@ -1,1 +1,565 @@
+# DOCUMENTAÇÃO DO PROJETO
 
+-------ACHEI-----
+## Aplicativo Acadêmico — Achados e Perdidos
+
+**Projeto:** Aplicativo de apoio aos alunos
+**Área:** Tecnologia / Desenvolvimento de Software
+**Instituição:** Universidade Anhanguera
+**Versão:** 1.0
+**Data:** Setembro de 2026
+
+---
+
+# 1. Introdução
+
+O projeto consiste no desenvolvimento de um aplicativo voltado para facilitar a rotina dos estudantes dentro da instituição de ensino.
+
+A proposta inicial surgiu a partir da identificação de problemas comuns enfrentados pelos alunos, principalmente relacionados a objetos perdidos dentro da faculdade e à dificuldade de encontrar informações sobre eventos, palestras e atividades acadêmicas.
+
+O aplicativo pretende centralizar essas informações em um único ambiente, permitindo que os estudantes encontrem objetos perdidos ou comuniquem que encontraram algum item, além de consultar eventos e palestras disponíveis na instituição.
+
+---
+
+# 2. Problema
+
+Dentro do ambiente universitário, é comum que estudantes percam objetos como:
+
+* Celulares;
+* Carteiras;
+* Chaves;
+* Documentos;
+* Fones de ouvido;
+* Mochilas;
+* Materiais escolares;
+* Outros objetos pessoais.
+
+Atualmente, a comunicação sobre esses objetos pode ocorrer por grupos de WhatsApp, redes sociais ou comunicação informal entre alunos.
+
+Esse modelo pode dificultar a localização dos objetos, pois as informações ficam espalhadas em diferentes canais.
+
+Outro problema identificado é a dificuldade dos alunos em descobrir quais eventos, palestras e atividades estão acontecendo na faculdade.
+
+---
+
+# 3. Solução Proposta
+
+A solução proposta é desenvolver um aplicativo acadêmico que reúna funcionalidades úteis para os estudantes em uma única plataforma.
+
+A primeira versão do aplicativo terá como foco principal:
+
+### Achados e Perdidos
+
+O estudante poderá cadastrar um objeto encontrado ou procurar por um objeto perdido.
+
+Cada publicação poderá apresentar informações como:
+
+* Nome do objeto;
+* Categoria;
+* Foto;
+* Local onde foi encontrado/perdido;
+* Data;
+* Horário aproximado;
+* Descrição;
+* Status do objeto.
+
+### Eventos e Palestras
+
+O aplicativo também poderá apresentar eventos acadêmicos realizados pela instituição. 
+
+Os estudantes poderão consultar:
+
+* Nome do evento;
+* Data;
+* Horário;
+* Local;
+* Descrição;
+* Palestrante;
+* Categoria;
+* Link ou forma de inscrição.
+
+---
+
+# 4. Objetivo Geral
+
+Desenvolver uma plataforma digital capaz de facilitar a comunicação entre estudantes e instituição, oferecendo ferramentas para localização de objetos perdidos e divulgação de eventos e atividades acadêmicas.
+
+---
+
+# 5. Objetivos Específicos
+
+* Facilitar a comunicação entre estudantes;
+* Criar um espaço específico para objetos perdidos e encontrados;
+* Reduzir a dependência de grupos de mensagens para localizar objetos;
+* Permitir o cadastro de objetos encontrados;
+* Permitir a busca por objetos perdidos;
+* Disponibilizar informações sobre eventos e palestras;
+* Centralizar informações importantes para os alunos;
+* Criar uma interface simples e intuitiva;
+* Desenvolver uma solução que possa futuramente ser integrada ao ambiente acadêmico.
+
+---
+
+# 6. Público-Alvo
+
+O aplicativo será destinado principalmente a:
+
+* Alunos da instituição;
+* Professores;
+* Funcionários;
+* Coordenação;
+* Organização de eventos;
+* Administração da instituição.
+
+O foco inicial será nos estudantes.
+
+---
+
+# 7. Funcionalidades do Sistema
+
+## 7.1 Cadastro e Login
+
+O usuário poderá criar uma conta utilizando informações como:
+
+* Nome;
+* E-mail institucional;
+* Senha;
+* Curso;
+* Matrícula.
+
+O sistema poderá futuramente permitir integração com o login institucional.
+
+---
+
+## 7.2 Página Inicial
+
+A tela inicial apresentará as principais funcionalidades do aplicativo.
+
+Exemplo:
+
+**Início**
+
+* 🔎 Buscar objeto
+* 📦 Achados e Perdidos
+* 📅 Eventos
+* 🎤 Palestras
+* 🔔 Notificações
+* 👤 Meu perfil
+
+---
+
+# 8. Módulo de Achados e Perdidos
+
+## 8.1 Objeto Perdido
+
+O aluno poderá informar que perdeu determinado objeto.
+
+Informações:
+
+* Foto;
+* Nome do objeto;
+* Categoria;
+* Local onde foi perdido;
+* Data;
+* Horário aproximado;
+* Descrição;
+* Informações para contato.
+
+---
+
+## 8.2 Objeto Encontrado
+
+O aluno poderá cadastrar um objeto que encontrou dentro da faculdade.
+
+Informações:
+
+* Foto;
+* Nome do objeto;
+* Categoria;
+* Local onde foi encontrado;
+* Data;
+* Horário;
+* Descrição;
+* Local onde o objeto está guardado.
+
+---
+
+## 8.3 Busca
+
+O usuário poderá pesquisar objetos utilizando filtros.
+
+Exemplos:
+
+**Categoria**
+
+* Celular
+* Documento
+* Carteira
+* Chaves
+* Mochila
+* Material acadêmico
+* Outros
+
+**Local**
+
+* Bloco A
+* Bloco B
+* Biblioteca
+* Laboratório
+* Cantina
+* Estacionamento
+* Sala de aula
+
+---
+
+## 8.4 Status do Objeto
+
+Cada publicação poderá possuir um status:
+
+* Perdido;
+* Encontrado;
+* Em análise;
+* Devolvido;
+* Encerrado.
+
+Quando o proprietário recuperar o objeto, a publicação poderá ser marcada como **Devolvido**.
+
+---
+
+# 9. Módulo de Eventos e Palestras
+
+O segundo módulo do aplicativo será destinado à divulgação de atividades acadêmicas.
+
+Cada evento poderá apresentar:
+
+* Nome;
+* Imagem;
+* Data;
+* Horário;
+* Local;
+* Descrição;
+* Palestrante;
+* Curso relacionado;
+* Número de vagas;
+* Link de inscrição.
+
+Exemplos:
+
+* Palestras;
+* Workshops;
+* Feiras acadêmicas;
+* Semana de tecnologia;
+* Eventos esportivos;
+* Eventos culturais;
+* Cursos e oficinas.
+
+---
+
+# 10. Notificações
+
+O sistema poderá enviar notificações para informar os usuários sobre:
+
+* Novo evento;
+* Alteração de horário;
+* Novo objeto encontrado;
+* Possível correspondência com objeto perdido;
+* Confirmação de inscrição;
+* Cancelamento de evento.
+
+---
+
+# 11. Perfil do Usuário
+
+O usuário terá uma área pessoal contendo:
+
+* Nome;
+* Foto;
+* Curso;
+* Matrícula;
+* Objetos publicados;
+* Objetos recuperados;
+* Eventos inscritos;
+* Configurações.
+
+---
+
+# 12. Área Administrativa
+
+Uma área administrativa poderá ser criada para funcionários autorizados da instituição.
+
+O administrador poderá:
+
+* Cadastrar eventos;
+* Editar eventos;
+* Excluir eventos;
+* Moderar publicações;
+* Remover conteúdo inadequado;
+* Alterar status de objetos;
+* Visualizar usuários;
+* Gerenciar denúncias.
+
+---
+
+# 13. Segurança
+
+O sistema deverá possuir mecanismos para proteger os dados dos usuários.
+
+Entre as medidas previstas estão:
+
+* Autenticação de usuários;
+* Senhas protegidas;
+* Controle de acesso;
+* Validação de informações;
+* Proteção das informações pessoais;
+* Sistema de denúncias;
+* Moderação das publicações.
+
+Também deverá ser considerada a adequação à **LGPD**, especialmente no tratamento de dados pessoais dos estudantes.
+
+---
+
+# 14. Tecnologias
+
+A tecnologia poderá ser definida de acordo com a evolução do projeto.
+
+### Front-end
+
+Possíveis tecnologias:
+
+* HTML;
+* CSS;
+* JavaScript;
+* React;
+* React Native ou Flutter para aplicativo mobile.
+
+### Back-end
+
+Possíveis tecnologias:
+
+* Java;
+* Node.js;
+* Python.
+
+### Banco de Dados
+
+Possíveis opções:
+
+* MySQL;
+* PostgreSQL;
+* Firebase;
+* MongoDB.
+
+### Controle de versão
+
+* Git;
+* GitHub.
+
+---
+
+# 15. Estrutura Inicial do Sistema
+
+A estrutura poderá ser dividida em:
+
+```text
+Aplicativo
+│
+├── Autenticação
+│   ├── Login
+│   └── Cadastro
+│
+├── Página Inicial
+│
+├── Achados e Perdidos
+│   ├── Objetos Perdidos
+│   ├── Objetos Encontrados
+│   ├── Cadastrar Objeto
+│   └── Buscar Objeto
+│
+├── Eventos
+│   ├── Lista de Eventos
+│   ├── Detalhes
+│   └── Inscrição
+│
+├── Notificações
+│
+├── Perfil
+│
+└── Administração
+    ├── Usuários
+    ├── Objetos
+    └── Eventos
+```
+
+---
+
+# 16. Fluxo Principal
+
+### Fluxo de objeto perdido
+
+```text
+Usuário entra no aplicativo
+        ↓
+Acessa "Achados e Perdidos"
+        ↓
+Seleciona "Perdi um objeto"
+        ↓
+Preenche as informações
+        ↓
+Adiciona foto
+        ↓
+Publica
+        ↓
+Outros usuários visualizam
+        ↓
+Objeto é localizado
+        ↓
+Status → Devolvido
+```
+
+### Fluxo de objeto encontrado
+
+```text
+Usuário encontra um objeto
+        ↓
+Abre o aplicativo
+        ↓
+Seleciona "Encontrei um objeto"
+        ↓
+Cadastra informações
+        ↓
+Adiciona foto
+        ↓
+Publica
+        ↓
+Proprietário identifica o objeto
+        ↓
+Contato/validação
+        ↓
+Objeto devolvido
+```
+
+---
+
+# 17. Requisitos Funcionais
+
+**RF01** — O sistema deverá permitir cadastro de usuários.
+
+**RF02** — O sistema deverá permitir login.
+
+**RF03** — O sistema deverá permitir cadastrar objetos perdidos.
+
+**RF04** — O sistema deverá permitir cadastrar objetos encontrados.
+
+**RF05** — O sistema deverá permitir adicionar fotos aos objetos.
+
+**RF06** — O sistema deverá permitir pesquisar objetos.
+
+**RF07** — O sistema deverá permitir filtrar objetos por categoria.
+
+**RF08** — O sistema deverá permitir atualizar o status de um objeto.
+
+**RF09** — O sistema deverá permitir cadastrar eventos.
+
+**RF10** — O sistema deverá permitir visualizar detalhes dos eventos.
+
+**RF11** — O sistema deverá permitir inscrição em eventos.
+
+**RF12** — O sistema deverá enviar notificações aos usuários.
+
+**RF13** — O sistema deverá possuir área administrativa.
+
+---
+
+# 18. Requisitos Não Funcionais
+
+**RNF01** — O sistema deverá possuir interface simples e intuitiva.
+
+**RNF02** — O sistema deverá apresentar bom desempenho.
+
+**RNF03** — O sistema deverá proteger os dados dos usuários.
+
+**RNF04** — O sistema deverá possuir controle de acesso.
+
+**RNF05** — O sistema deverá ser responsivo.
+
+**RNF06** — O sistema deverá funcionar em diferentes tamanhos de tela.
+
+**RNF07** — O sistema deverá possuir possibilidade de expansão futura.
+
+---
+
+# 19. MVP — Primeira Versão
+
+Para evitar que o projeto fique muito grande inicialmente, o primeiro MVP poderá possuir somente:
+
+### Versão 1.0
+
+* Login;
+* Cadastro;
+* Página inicial;
+* Achados e Perdidos;
+* Cadastro de objeto;
+* Busca;
+* Filtro;
+* Status do objeto;
+* Perfil.
+
+### Versão 2.0
+
+* Eventos;
+* Palestras;
+* Inscrições;
+* Notificações.
+
+### Versão 3.0
+
+* Área administrativa;
+* Moderação;
+* Sistema de denúncias;
+* Notificações inteligentes;
+* Possível integração com sistemas da instituição.
+
+---
+
+# 20. Possíveis Melhorias Futuras
+
+O projeto poderá evoluir para uma plataforma acadêmica mais completa.
+
+Possíveis funcionalidades:
+
+* Mapa da faculdade;
+* Localização das salas;
+* Consulta de horários;
+* Calendário acadêmico;
+* Cardápio da faculdade;
+* Avisos da instituição;
+* Biblioteca;
+* Reserva de salas;
+* Sistema de chamados;
+* Integração com matrícula;
+* Chat entre usuário e administração.
+
+---
+
+# 21. Benefícios Esperados
+
+Espera-se que o aplicativo:
+
+* Facilite a localização de objetos;
+* Melhore a comunicação entre estudantes;
+* Centralize informações;
+* Aumente a divulgação de eventos acadêmicos;
+* Reduza informações espalhadas em diferentes grupos;
+* Melhore a experiência dos estudantes dentro da faculdade.
+
+---
+
+# 22. Conclusão
+
+O projeto propõe o desenvolvimento de uma solução tecnológica voltada para problemas reais enfrentados pelos estudantes no ambiente universitário.
+
+A primeira proposta concentra-se em duas necessidades: **facilitar a localização de objetos perdidos e encontrados** e **centralizar informações sobre eventos e palestras**.
+
+O sistema poderá começar como um MVP simples e evoluir gradualmente, incorporando novas funcionalidades de acordo com as necessidades dos usuários e da instituição.
+
+Dessa forma, o projeto possui potencial para se transformar em uma plataforma acadêmica mais ampla, reunindo diferentes serviços úteis para os estudantes em um único aplicativo.
